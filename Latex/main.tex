@@ -1,0 +1,54 @@
+\documentclass{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{graphicx}
+% ====================================
+% Hipervinculos
+% ====================================
+\usepackage{hyperref}
+\hypersetup{colorlinks=true, linkcolor=black, urlcolor=blue, citecolor=blue}
+
+% ====================================
+% ENCABEZADO Y PIE DE Página
+% ====================================
+\usepackage{fancyhdr}                % Encabezado y pie de página personalizados
+\pagestyle{fancy}
+\fancyhf{}                        % Limpia el comportamiento por defecto
+\rhead{Estructuras de Datos}       % Texto del encabezado (right head)
+\rfoot{\thepage}                   % Número de página en el pie (right foot)
+
+\usepackage{lipsum}
+
+\begin{document}
+\begin{titlepage}
+\centering
+
+\vspace{0.5cm}
+
+{\LARGE\bfseries Título del informe \par}
+{\large Subtítulo o tema del informe \par}
+\vspace{1cm}
+
+{\large\textbf{Integrantes:}\\
+Nombre Apellido \\
+Nombre Apellido \\
+Nombre Apellido \\
+}
+\vspace{0.5cm}
+
+\textbf{Fecha:} \today \\
+\vspace{0.5cm}
+
+{\large\textbf{Profesora:} Jacqueline Aldridge \par}
+{\large\textbf{Asignatura:} Estructuras de Datos \par}
+\vfill
+\end{titlepage}
+
+\tableofcontents
+\newpage
+
+
+\end{document}
